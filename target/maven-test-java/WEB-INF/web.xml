@@ -5,16 +5,17 @@
     <servlet-class>com.cice.maven.test.java.ServletTest</servlet-class>
   </servlet>
 
-  <servlet-mapping>
-    <servlet-name>ServletTest</servlet-name>
-    <url-pattern>/test</url-pattern>
-  </servlet-mapping>
 
   <servlet>
     <servlet-name>CicloVidaServlet</servlet-name>
     <servlet-class>com.cice.maven.test.java.CicloVidaServlet</servlet-class>
   </servlet>
-  
+
+  <servlet-mapping>
+    <servlet-name>ServletTest</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>CicloVidaServlet</servlet-name>
     <url-pattern>/ciclo</url-pattern>
