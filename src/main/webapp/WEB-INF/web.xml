@@ -14,7 +14,7 @@
     <servlet-name>CicloVidaServlet</servlet-name>
     <servlet-class>com.cice.maven.test.java.CicloVidaServlet</servlet-class>
   </servlet>
-  
+
   <servlet-mapping>
     <servlet-name>CicloVidaServlet</servlet-name>
     <url-pattern>/ciclo</url-pattern>
