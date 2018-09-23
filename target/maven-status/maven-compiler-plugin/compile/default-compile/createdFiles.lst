@@ -1,2 +1,3 @@
-com/cice/maven/test/java/ServletTest.class
-com/cice/maven/test/java/CicloVidaServlet.class
+com\cice\maven\test\java\CicloVidaServlet.class
+com\cice\maven\test\java\ConnectToDatabaseServlet.class
+com\cice\maven\test\java\ServletTest.class

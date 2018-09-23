@@ -20,5 +20,14 @@
     <url-pattern>/ciclo</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>ConnectToDatabaseServlet</servlet-name>
+    <servlet-class>com.cice.maven.test.java.ConnectToDatabaseServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ConnectToDatabaseServlet</servlet-name>
+    <url-pattern>/dbtest</url-pattern>
+  </servlet-mapping>
 
 </web-app>
